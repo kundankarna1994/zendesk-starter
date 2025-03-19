@@ -1,7 +1,7 @@
 declare global {
     interface Window {
-        ZAFClient: any
+        ZAFClient: any;
     }
 }
 
-export { }
+export {};
