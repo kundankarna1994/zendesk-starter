@@ -1,4 +1,3 @@
-import { createContext } from "react";
+import { createContext } from 'react'
 
-export const TranslationContext =
-    (createContext < { i18n: any, setLocale: any }) | (null > null);
+export const TranslationContext = createContext<{ i18n: any; setLocale: any } | null>(null)

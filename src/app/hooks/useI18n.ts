@@ -1,13 +1,13 @@
-import { useContext } from "react";
+import { useContext } from 'react'
 
-import { TranslationContext } from "../contexts/TranslationContext";
+import { TranslationContext } from '../contexts/TranslationContext'
 
 export function useI18n() {
-    const ctx = useContext(TranslationContext);
+  const ctx = useContext(TranslationContext)
 
-    if (!ctx) {
-        throw new Error("useI18n must be used within a TranslationProvider");
-    }
+  if (!ctx) {
+    throw new Error('useI18n must be used within a TranslationProvider')
+  }
 
-    return ctx.i18n;
+  return ctx.i18n
 }

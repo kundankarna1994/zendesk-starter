@@ -1,3 +1,3 @@
-import { createContext } from "react";
+import { createContext } from 'react'
 
-export const ClientContext = createContext < any > {};
+export const ClientContext = createContext<any>({})

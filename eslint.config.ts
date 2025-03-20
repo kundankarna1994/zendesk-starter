@@ -56,6 +56,7 @@ export default tseslint.config(
                     ignoreProperties: true,
                 },
             ],
+            "@typescript-eslint/type-annotation-spacing": "off"
         },
     },
 )
