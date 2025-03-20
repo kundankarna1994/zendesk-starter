@@ -12,7 +12,7 @@ export const useClient = () => {
 }
 
 export const useLocation = () => {
-  const [location, setLocation] = useState<string | null>(null)
+  const [location, setLocation] = useState<string | null>()
   const client = useClient()
 
   useEffect(() => {

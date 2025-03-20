@@ -26,6 +26,7 @@ const TicketSideBar = () => {
     client.invoke('resize', { width: '100%', height: '450px' })
   }, [client])
 
+  console.log('A')
   return (
     <GridContainer>
       <Row justifyContent='center'>
